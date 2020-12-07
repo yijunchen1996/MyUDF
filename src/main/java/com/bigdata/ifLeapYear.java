@@ -14,7 +14,7 @@ public class ifLeapYear extends UDF {
             }else if(year2int%400==0){
                 return "leap year";
             }else{
-                return "nonononoleap year";
+                return "noleap year";
             }
         }
         return null;
